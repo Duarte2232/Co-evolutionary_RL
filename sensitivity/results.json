@@ -1,0 +1,222 @@
+{
+  "speed_6": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 5.0,
+      "v_evader_max": 6.0
+    },
+    "arms_race": [
+      0.28,
+      0.28,
+      0.24,
+      0.0
+    ],
+    "cross_phase": {
+      "t0_straight": 0.28,
+      "t0_e1": 0.28,
+      "t0_e3": 0.38,
+      "t2_straight": 0.08,
+      "t2_e1": 0.24,
+      "t2_e3": 0.0
+    },
+    "seed": 0
+  },
+  "baseline_s0": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 5.0,
+      "v_evader_max": 8.0
+    },
+    "arms_race": [
+      0.58,
+      0.62,
+      0.2,
+      0.28
+    ],
+    "cross_phase": {
+      "t0_straight": 0.58,
+      "t0_e1": 0.62,
+      "t0_e3": 0.6,
+      "t2_straight": 0.1,
+      "t2_e1": 0.2,
+      "t2_e3": 0.28
+    },
+    "seed": 0
+  },
+  "baseline_s1": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 5.0,
+      "v_evader_max": 8.0
+    },
+    "arms_race": [
+      0.48,
+      0.44,
+      0.54,
+      0.46
+    ],
+    "cross_phase": {
+      "t0_straight": 0.48,
+      "t0_e1": 0.44,
+      "t0_e3": 0.26,
+      "t2_straight": 0.52,
+      "t2_e1": 0.54,
+      "t2_e3": 0.46
+    },
+    "seed": 1
+  },
+  "baseline_s2": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 5.0,
+      "v_evader_max": 8.0
+    },
+    "arms_race": [
+      0.36,
+      0.14,
+      0.8,
+      0.5
+    ],
+    "cross_phase": {
+      "t0_straight": 0.36,
+      "t0_e1": 0.14,
+      "t0_e3": 0.1,
+      "t2_straight": 0.28,
+      "t2_e1": 0.8,
+      "t2_e3": 0.5
+    },
+    "seed": 2
+  },
+  "speed_10": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 5.0,
+      "v_evader_max": 10.0
+    },
+    "arms_race": [
+      0.24,
+      0.0,
+      0.02,
+      0.0
+    ],
+    "cross_phase": {
+      "t0_straight": 0.24,
+      "t0_e1": 0.0,
+      "t0_e3": 0.04,
+      "t2_straight": 0.02,
+      "t2_e1": 0.02,
+      "t2_e3": 0.0
+    },
+    "seed": 0
+  },
+  "speed_12": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 5.0,
+      "v_evader_max": 12.0
+    },
+    "arms_race": [
+      0.02,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cross_phase": {
+      "t0_straight": 0.02,
+      "t0_e1": 0.0,
+      "t0_e3": 0.0,
+      "t2_straight": 0.0,
+      "t2_e1": 0.0,
+      "t2_e3": 0.0
+    },
+    "seed": 0
+  },
+  "gamma_090": {
+    "config": {
+      "gamma": 0.9,
+      "capture_radius": 5.0,
+      "v_evader_max": 8.0
+    },
+    "arms_race": [
+      0.78,
+      0.6,
+      0.16,
+      0.0
+    ],
+    "cross_phase": {
+      "t0_straight": 0.78,
+      "t0_e1": 0.6,
+      "t0_e3": 0.24,
+      "t2_straight": 0.46,
+      "t2_e1": 0.16,
+      "t2_e3": 0.0
+    },
+    "seed": 0
+  },
+  "gamma_099": {
+    "config": {
+      "gamma": 0.99,
+      "capture_radius": 5.0,
+      "v_evader_max": 8.0
+    },
+    "arms_race": [
+      0.04,
+      0.02,
+      0.34,
+      0.14
+    ],
+    "cross_phase": {
+      "t0_straight": 0.04,
+      "t0_e1": 0.02,
+      "t0_e3": 0.1,
+      "t2_straight": 0.12,
+      "t2_e1": 0.34,
+      "t2_e3": 0.14
+    },
+    "seed": 0
+  },
+  "radius_2": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 2.5,
+      "v_evader_max": 8.0
+    },
+    "arms_race": [
+      0.04,
+      0.0,
+      0.1,
+      0.14
+    ],
+    "cross_phase": {
+      "t0_straight": 0.04,
+      "t0_e1": 0.0,
+      "t0_e3": 0.02,
+      "t2_straight": 0.0,
+      "t2_e1": 0.1,
+      "t2_e3": 0.14
+    },
+    "seed": 0
+  },
+  "radius_10": {
+    "config": {
+      "gamma": 0.95,
+      "capture_radius": 10.0,
+      "v_evader_max": 8.0
+    },
+    "arms_race": [
+      0.74,
+      0.46,
+      0.7,
+      0.64
+    ],
+    "cross_phase": {
+      "t0_straight": 0.74,
+      "t0_e1": 0.46,
+      "t0_e3": 0.62,
+      "t2_straight": 0.3,
+      "t2_e1": 0.7,
+      "t2_e3": 0.64
+    },
+    "seed": 0
+  }
+}

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+ae4350_env/
+
+# Old experiments
+noise1/
+ppo_tracker_tensorboard/
+ppo_tracker_model.zip
+ppo_tracker_model1run.zip
+
+# Stale root-level model snapshots (superseded by tracker0/2, evader1/3)
+evader_actor.pt
+tracker_actor.pt
+tracker_phase2_actor.pt
+evader_learning.png
+phase2_learning.png
+
+# Sensitivity run checkpoints (results captured in sensitivity/results.json)
+sensitivity/baseline_s0/
+sensitivity/baseline_s1/
+sensitivity/baseline_s2/
+sensitivity/gamma_090/
+sensitivity/gamma_099/
+sensitivity/radius_2/
+sensitivity/radius_10/
+sensitivity/speed_6/
+sensitivity/speed_10/
+sensitivity/speed_12/
+
+# Assignment / lecture PDFs (not student work)
+AE4350_assignment_description_2025-1.pdf
+RL_for_Flight_Control_upd-2.pdf
+Bio_Inspired_Assignment-2.pdf
