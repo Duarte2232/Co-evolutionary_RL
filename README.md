@@ -8,7 +8,9 @@ AE4350 Bio-inspired Intelligence and Learning for Aerospace Applications, TU Del
 
 The arms race works in the sense that each retrained side beats the previous opponent: the tracker's capture rate falls from 56% to 40% once the evader has learned to dodge, recovers to 56% after the tracker is retrained, and falls to 34% after the evader is retrained (greedy policies, 50 evaluation episodes per matchup).
 
-![Tracker capture rate by phase](figures/arms_race.png)
+<p align="center"><img src="figures/phase2_chase.gif" alt="3D chase: tracker (blue) catching the evader (red)" width="640"></p>
+
+*Phase 2 tracker (blue) against the Phase 1 evader (red). This is the shortest capture of the 50 evaluation episodes, not a typical one: this matchup ends in a capture in 28 of 50 episodes. Capture rate by phase as a bar chart: [`figures/arms_race.png`](figures/arms_race.png). The other two animations are in `figures/`.*
 
 **It is not a robust result.** The numbers above come from one training run. In the sensitivity sweep, three training seeds with identical settings give cross-phase capture rates anywhere between 10% and 80%. Raising the evader's maximum speed from the default 8 to 10 or 12 drops every matchup to at most 24% capture (speed 10) and at most 2% (speed 12). The sweep (evader speed, discount factor, capture radius) is in `sensitivity/`; the PPO baseline and the intermediate versions are kept in `old_experiments/` and `dev_history/`.
 
